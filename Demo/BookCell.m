@@ -25,22 +25,23 @@
     return self;
 }
 
+// Could reuse the cell.
+-(instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
+{
+    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
+    if( self )
+    {
+        self = [self init];
+    }
+    return self;
+}
+
 -(instancetype)initWithFrame:(CGRect)frame
 {
     self = [self init];
     if (self)
     {
         [self setFrame:frame];
-    }
-    return self;
-}
-
--(instancetype)initWithReuseIdentifier:(NSString *)reuseIdentifier
-{
-    self = [self init];
-    if( self )
-    {
-        self.reuseIdentifier = reuseIdentifier;
     }
     return self;
 }

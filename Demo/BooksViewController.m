@@ -40,6 +40,7 @@ static NSString *cellIdentifier = @"bookCell";
     [super viewDidLoad];
     _books   = [NSMutableArray new];
     _isBuyer = [NSUserDefaults boolValueForKey:kIsBuyer];
+    [_tableView registerClass:[BookCell class] forCellReuseIdentifier:cellIdentifier];
 }
 
 -(void)viewWillAppear:(BOOL)animated
@@ -73,18 +74,14 @@ static NSString *cellIdentifier = @"bookCell";
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    BookCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
-    if (cell == nil)
-    {
-        cell = [[BookCell alloc] initWithReuseIdentifier:cellIdentifier];
-    }
+    BookCell *cell          = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
     NSDictionary *_bookInfo = [_books objectAtIndex:indexPath.row];
-    cell.bookId         = [_bookInfo objectForKey:kBookId];
-    cell.bookName       = [_bookInfo objectForKey:kBookName];
-    cell.bookCategory   = [_bookInfo objectForKey:kBookCategory];
-    cell.bookPrice      = [_bookInfo objectForKey:kBookPrice];
-    cell.selectionStyle = UITableViewCellSelectionStyleGray;
-    cell.accessoryType  = UITableViewCellAccessoryDisclosureIndicator;
+    cell.bookId             = [_bookInfo objectForKey:kBookId];
+    cell.bookName           = [_bookInfo objectForKey:kBookName];
+    cell.bookCategory       = [_bookInfo objectForKey:kBookCategory];
+    cell.bookPrice          = [_bookInfo objectForKey:kBookPrice];
+    cell.selectionStyle     = UITableViewCellSelectionStyleGray;
+    cell.accessoryType      = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }
 
