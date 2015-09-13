@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51F54555609881B6EF072B84 /* libPods-ML-Recommendation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C785762B070AB5B0F33352 /* libPods-ML-Recommendation.a */; };
 		8E720438177DB7AA00B5DDC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E720437177DB7AA00B5DDC2 /* UIKit.framework */; };
 		8E72043A177DB7AA00B5DDC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E720439177DB7AA00B5DDC2 /* Foundation.framework */; };
 		8E72043C177DB7AA00B5DDC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E72043B177DB7AA00B5DDC2 /* CoreGraphics.framework */; };
@@ -17,10 +18,6 @@
 		8E72044C177DB7AA00B5DDC2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E72044B177DB7AA00B5DDC2 /* Default@2x.png */; };
 		8E72044E177DB7AA00B5DDC2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E72044D177DB7AA00B5DDC2 /* Default-568h@2x.png */; };
 		8E720451177DB7AA00B5DDC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E720450177DB7AA00B5DDC2 /* ViewController.m */; };
-		8EA2338E1B88D45B007F03E2 /* KRBPN+NSUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA233861B88D45B007F03E2 /* KRBPN+NSUserDefaults.m */; };
-		8EA2338F1B88D45B007F03E2 /* KRBPNTrainedNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA233891B88D45B007F03E2 /* KRBPNTrainedNetwork.m */; };
-		8EA233901B88D45B007F03E2 /* KRBPN.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA2338B1B88D45B007F03E2 /* KRBPN.m */; };
-		8EA233911B88D45B007F03E2 /* KRQuickProp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA2338D1B88D45B007F03E2 /* KRQuickProp.m */; };
 		8EC0E80E1B909B5D00185494 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EC0E80D1B909B5D00185494 /* MainStoryboard.storyboard */; };
 		8EC0E8141B90A2E600185494 /* SellerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC0E8131B90A2E600185494 /* SellerViewController.m */; };
 		8EC0E8171B90BAB900185494 /* BuyerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC0E8161B90BAB900185494 /* BuyerViewController.m */; };
@@ -32,6 +29,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E546A82CFD478A8A3C6807E /* Pods-ML-Recommendation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML-Recommendation.release.xcconfig"; path = "Pods/Target Support Files/Pods-ML-Recommendation/Pods-ML-Recommendation.release.xcconfig"; sourceTree = "<group>"; };
+		5698CDE7640C8487D574CFD9 /* Pods-ML-Recommendation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML-Recommendation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ML-Recommendation/Pods-ML-Recommendation.debug.xcconfig"; sourceTree = "<group>"; };
+		68C785762B070AB5B0F33352 /* libPods-ML-Recommendation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ML-Recommendation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E720434177DB7AA00B5DDC2 /* ML-Recommendation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ML-Recommendation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E720437177DB7AA00B5DDC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8E720439177DB7AA00B5DDC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -47,15 +47,6 @@
 		8E72044F177DB7AA00B5DDC2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8E720450177DB7AA00B5DDC2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8E7D0B6B1B92032B003C6C50 /* ML-Recommendation-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ML-Recommendation-Prefix.pch"; sourceTree = "<group>"; };
-		8EA233831B88D45B007F03E2 /* KRBPN+Definition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KRBPN+Definition.h"; sourceTree = "<group>"; };
-		8EA233851B88D45B007F03E2 /* KRBPN+NSUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KRBPN+NSUserDefaults.h"; sourceTree = "<group>"; };
-		8EA233861B88D45B007F03E2 /* KRBPN+NSUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KRBPN+NSUserDefaults.m"; sourceTree = "<group>"; };
-		8EA233881B88D45B007F03E2 /* KRBPNTrainedNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRBPNTrainedNetwork.h; sourceTree = "<group>"; };
-		8EA233891B88D45B007F03E2 /* KRBPNTrainedNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRBPNTrainedNetwork.m; sourceTree = "<group>"; };
-		8EA2338A1B88D45B007F03E2 /* KRBPN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRBPN.h; sourceTree = "<group>"; };
-		8EA2338B1B88D45B007F03E2 /* KRBPN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRBPN.m; sourceTree = "<group>"; };
-		8EA2338C1B88D45B007F03E2 /* KRQuickProp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRQuickProp.h; sourceTree = "<group>"; };
-		8EA2338D1B88D45B007F03E2 /* KRQuickProp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRQuickProp.m; sourceTree = "<group>"; };
 		8EC0E80D1B909B5D00185494 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		8EC0E8121B90A2DA00185494 /* SellerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SellerViewController.h; sourceTree = "<group>"; };
 		8EC0E8131B90A2E600185494 /* SellerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SellerViewController.m; sourceTree = "<group>"; };
@@ -81,20 +72,30 @@
 				8E720438177DB7AA00B5DDC2 /* UIKit.framework in Frameworks */,
 				8E72043A177DB7AA00B5DDC2 /* Foundation.framework in Frameworks */,
 				8E72043C177DB7AA00B5DDC2 /* CoreGraphics.framework in Frameworks */,
+				51F54555609881B6EF072B84 /* libPods-ML-Recommendation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7466D9CE120D3E6D48DF5419 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5698CDE7640C8487D574CFD9 /* Pods-ML-Recommendation.debug.xcconfig */,
+				0E546A82CFD478A8A3C6807E /* Pods-ML-Recommendation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8E72042B177DB7AA00B5DDC2 = {
 			isa = PBXGroup;
 			children = (
-				8EA233811B88D45B007F03E2 /* ML */,
 				8E72043D177DB7AA00B5DDC2 /* Demo */,
 				8E72043E177DB7AA00B5DDC2 /* Supporting Files */,
 				8E720436177DB7AA00B5DDC2 /* Frameworks */,
 				8E720435177DB7AA00B5DDC2 /* Products */,
+				7466D9CE120D3E6D48DF5419 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +113,7 @@
 				8E720437177DB7AA00B5DDC2 /* UIKit.framework */,
 				8E720439177DB7AA00B5DDC2 /* Foundation.framework */,
 				8E72043B177DB7AA00B5DDC2 /* CoreGraphics.framework */,
+				68C785762B070AB5B0F33352 /* libPods-ML-Recommendation.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -145,46 +147,6 @@
 			);
 			name = "Supporting Files";
 			path = Demo;
-			sourceTree = "<group>";
-		};
-		8EA233811B88D45B007F03E2 /* ML */ = {
-			isa = PBXGroup;
-			children = (
-				8EA233821B88D45B007F03E2 /* KRBPN+Definition */,
-				8EA233841B88D45B007F03E2 /* KRBPN+NSUserDefaults */,
-				8EA233871B88D45B007F03E2 /* KRBPN+TrainedNetwork */,
-				8EA2338A1B88D45B007F03E2 /* KRBPN.h */,
-				8EA2338B1B88D45B007F03E2 /* KRBPN.m */,
-				8EA2338C1B88D45B007F03E2 /* KRQuickProp.h */,
-				8EA2338D1B88D45B007F03E2 /* KRQuickProp.m */,
-			);
-			path = ML;
-			sourceTree = "<group>";
-		};
-		8EA233821B88D45B007F03E2 /* KRBPN+Definition */ = {
-			isa = PBXGroup;
-			children = (
-				8EA233831B88D45B007F03E2 /* KRBPN+Definition.h */,
-			);
-			path = "KRBPN+Definition";
-			sourceTree = "<group>";
-		};
-		8EA233841B88D45B007F03E2 /* KRBPN+NSUserDefaults */ = {
-			isa = PBXGroup;
-			children = (
-				8EA233851B88D45B007F03E2 /* KRBPN+NSUserDefaults.h */,
-				8EA233861B88D45B007F03E2 /* KRBPN+NSUserDefaults.m */,
-			);
-			path = "KRBPN+NSUserDefaults";
-			sourceTree = "<group>";
-		};
-		8EA233871B88D45B007F03E2 /* KRBPN+TrainedNetwork */ = {
-			isa = PBXGroup;
-			children = (
-				8EA233881B88D45B007F03E2 /* KRBPNTrainedNetwork.h */,
-				8EA233891B88D45B007F03E2 /* KRBPNTrainedNetwork.m */,
-			);
-			path = "KRBPN+TrainedNetwork";
 			sourceTree = "<group>";
 		};
 		8EC0E80F1B90A26A00185494 /* Seller */ = {
@@ -260,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E720457177DB7AA00B5DDC2 /* Build configuration list for PBXNativeTarget "ML-Recommendation" */;
 			buildPhases = (
+				BC5CB42B32BFBCADC5516443 /* Check Pods Manifest.lock */,
 				8E720430177DB7AA00B5DDC2 /* Sources */,
 				8E720431177DB7AA00B5DDC2 /* Frameworks */,
 				8E720432177DB7AA00B5DDC2 /* Resources */,
+				2EC203135A2CE17176AC0919 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -325,20 +289,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2EC203135A2CE17176AC0919 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ML-Recommendation/Pods-ML-Recommendation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC5CB42B32BFBCADC5516443 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8E720430177DB7AA00B5DDC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EA233911B88D45B007F03E2 /* KRQuickProp.m in Sources */,
 				8EC0E81A1B90BC1C00185494 /* BooksViewController.m in Sources */,
-				8EA2338F1B88D45B007F03E2 /* KRBPNTrainedNetwork.m in Sources */,
 				8EC0E82C1B90C42500185494 /* BookCell.m in Sources */,
 				8E720444177DB7AA00B5DDC2 /* main.m in Sources */,
-				8EA2338E1B88D45B007F03E2 /* KRBPN+NSUserDefaults.m in Sources */,
 				8EC0E8171B90BAB900185494 /* BuyerViewController.m in Sources */,
 				8EC0E8361B90EFC000185494 /* BooksDatabase.m in Sources */,
-				8EA233901B88D45B007F03E2 /* KRBPN.m in Sources */,
 				8EC0E8321B90D5D600185494 /* BookCover.m in Sources */,
 				8E720448177DB7AA00B5DDC2 /* AppDelegate.m in Sources */,
 				8E720451177DB7AA00B5DDC2 /* ViewController.m in Sources */,
@@ -385,7 +378,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -409,7 +402,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -418,12 +411,14 @@
 		};
 		8E720458177DB7AA00B5DDC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5698CDE7640C8487D574CFD9 /* Pods-ML-Recommendation.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Demo/ML-Recommendation-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Demo/ML-Recommendation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "ML-Recommendation";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -432,12 +427,14 @@
 		};
 		8E720459177DB7AA00B5DDC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E546A82CFD478A8A3C6807E /* Pods-ML-Recommendation.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Demo/ML-Recommendation-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Demo/ML-Recommendation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "ML-Recommendation";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;

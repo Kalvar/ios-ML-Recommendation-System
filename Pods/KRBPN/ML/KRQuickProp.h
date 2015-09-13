@@ -1,6 +1,6 @@
 //
 //  KRQuickProp.h
-// 
+//  BPN
 //
 //  Created by Kalvar on 2015/5/16.
 //  Copyright (c) 2015年 Kuo-Ming Lin. All rights reserved.

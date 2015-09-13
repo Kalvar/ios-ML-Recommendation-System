@@ -1,6 +1,6 @@
 //
 //  KRBPN.m
-//  BPN V2.0.1
+//  BPN V2.0.4
 //
 //  Created by Kalvar on 13/6/28.
 //  Copyright (c) 2013 - 2015年 Kuo-Ming Lin (Kalvar Lin). All rights reserved.
@@ -130,7 +130,7 @@ static NSString *_kTrainedNetworkInfo         = @"kTrainedNetworkInfo";
     
     if( self.delegate )
     {
-        if( [self.delegate respondsToSelector:@selector(krBPNDidTrainFinished:trainedInfo:totalTimes:)] )
+        if( [self.delegate respondsToSelector:@selector(krBpnDidTrainFinished:trainedInfo:totalTimes:)] )
         {
             [self.delegate krBpnDidTrainFinished:self trainedInfo:self.trainedInfo totalTimes:self.presentIteration];
         }

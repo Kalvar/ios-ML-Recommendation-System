@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2713ED9D51733B9C52CAD004713C2E92 /* KRQuickProp.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4AE3C63A2244F163C6BEADCE552282 /* KRQuickProp.m */; };
+		298B1BD677332EB6FFF318ECB865C419 /* KRBPN.m in Sources */ = {isa = PBXBuildFile; fileRef = 84561313E81C11DC0F4F094955887B5D /* KRBPN.m */; };
+		2DB872362352937BA64FE4337B00A4D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4C790778FB5584BCBEE1C0D4898251 /* Foundation.framework */; };
+		5F781AF88CC8414165132C53C7601C62 /* KRBPNTrainedNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 5362271F52B78DEC6A31ADF433D94FD5 /* KRBPNTrainedNetwork.m */; };
+		661E8E5290BFA861112FAB0E00272F5F /* Pods-ML-Recommendation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D18C5920F8D93989428467AE22C9B3 /* Pods-ML-Recommendation-dummy.m */; };
+		7C1ED78B1F4C1773BB598869DD36FA52 /* KRBPN+NSUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCF1574E6DAB2DF700519E5E48E1770 /* KRBPN+NSUserDefaults.m */; };
+		80A4C2427859C0BCA316AA8DCDF3DFE3 /* KRBPN.h in Headers */ = {isa = PBXBuildFile; fileRef = DEDE84B09CD65957098A6511170F736C /* KRBPN.h */; };
+		93584E5A8867A734AF87CB319BFF64F3 /* KRBPN-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4BCD596DEB441F83C6068C992FF072 /* KRBPN-dummy.m */; };
+		AA7E59653321D8FA71B1995051B20AB3 /* KRBPN+Definition.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D2DE499B3783818EC4502BEC8D822F /* KRBPN+Definition.h */; };
+		AE47E5F7DA8FB590925855B1F538AFB7 /* KRQuickProp.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BFA9C0439DDEF22417006642E295FEE /* KRQuickProp.h */; };
+		B034F96FE603B1CC54362C1B7A8251B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4C790778FB5584BCBEE1C0D4898251 /* Foundation.framework */; };
+		D0B7BAB6533B9EE1B7A083CE8FBBE37A /* KRBPN+NSUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D98EB05DEA3EC5AE6F4A439C416EED7 /* KRBPN+NSUserDefaults.h */; };
+		E86EFB3E0E5C8C12C49B32B51893F679 /* KRBPNTrainedNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCF0259EF3013CA77C2029EB7CC0A5B /* KRBPNTrainedNetwork.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A30547CC31BAB038A8BAF1FB6FD92AC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E3F53C473B014BD7FCF34709510532F;
+			remoteInfo = KRBPN;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02D18C5920F8D93989428467AE22C9B3 /* Pods-ML-Recommendation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ML-Recommendation-dummy.m"; sourceTree = "<group>"; };
+		0D98EB05DEA3EC5AE6F4A439C416EED7 /* KRBPN+NSUserDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "KRBPN+NSUserDefaults.h"; path = "ML/KRBPN+NSUserDefaults/KRBPN+NSUserDefaults.h"; sourceTree = "<group>"; };
+		3080C979766BE92340A029C4A5CA816B /* Pods-ML-Recommendation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ML-Recommendation.debug.xcconfig"; sourceTree = "<group>"; };
+		3D4C790778FB5584BCBEE1C0D4898251 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		42D05B9EE22598B9CC4339D377073A92 /* KRBPN-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRBPN-prefix.pch"; sourceTree = "<group>"; };
+		5362271F52B78DEC6A31ADF433D94FD5 /* KRBPNTrainedNetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KRBPNTrainedNetwork.m; path = "ML/KRBPN+TrainedNetwork/KRBPNTrainedNetwork.m"; sourceTree = "<group>"; };
+		73D2DE499B3783818EC4502BEC8D822F /* KRBPN+Definition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "KRBPN+Definition.h"; path = "ML/KRBPN+Definition/KRBPN+Definition.h"; sourceTree = "<group>"; };
+		84561313E81C11DC0F4F094955887B5D /* KRBPN.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KRBPN.m; path = ML/KRBPN.m; sourceTree = "<group>"; };
+		8BFA9C0439DDEF22417006642E295FEE /* KRQuickProp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KRQuickProp.h; path = ML/KRQuickProp.h; sourceTree = "<group>"; };
+		94A69855B647CFDE8B9835C7AC6F8AA6 /* KRBPN.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRBPN.xcconfig; sourceTree = "<group>"; };
+		A0DF229DA9ACA9DC68BF1EA50958C6C6 /* Pods-ML-Recommendation-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ML-Recommendation-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA098BBF023E701D24277C953713CC31 /* Pods-ML-Recommendation-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ML-Recommendation-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CA4BCD596DEB441F83C6068C992FF072 /* KRBPN-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KRBPN-dummy.m"; sourceTree = "<group>"; };
+		CDCF1574E6DAB2DF700519E5E48E1770 /* KRBPN+NSUserDefaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "KRBPN+NSUserDefaults.m"; path = "ML/KRBPN+NSUserDefaults/KRBPN+NSUserDefaults.m"; sourceTree = "<group>"; };
+		D5401750A5295E6583BB20D17DA65F84 /* Pods-ML-Recommendation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ML-Recommendation.release.xcconfig"; sourceTree = "<group>"; };
+		DC4AE3C63A2244F163C6BEADCE552282 /* KRQuickProp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KRQuickProp.m; path = ML/KRQuickProp.m; sourceTree = "<group>"; };
+		DDCF0259EF3013CA77C2029EB7CC0A5B /* KRBPNTrainedNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KRBPNTrainedNetwork.h; path = "ML/KRBPN+TrainedNetwork/KRBPNTrainedNetwork.h"; sourceTree = "<group>"; };
+		DEDE84B09CD65957098A6511170F736C /* KRBPN.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KRBPN.h; path = ML/KRBPN.h; sourceTree = "<group>"; };
+		E70E4F546DD5CBA030045CABBC845F89 /* libPods-ML-Recommendation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ML-Recommendation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6F51FF0F4E390FEBDB4E8C60A79C1A /* KRBPN-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "KRBPN-Private.xcconfig"; sourceTree = "<group>"; };
+		F62DA3D8311462CE0B5613C1AA4D1BE5 /* libKRBPN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKRBPN.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC7125E23355A8995221904D30CA1CFC /* Pods-ML-Recommendation-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ML-Recommendation-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FB419089AEA7BCBE2856DB16749C9DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB872362352937BA64FE4337B00A4D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE8B20C003ACA5C778289D3356B15E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B034F96FE603B1CC54362C1B7A8251B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B74CFC03A439D0E148DAB10FA4562BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9369EC4CDE7F30F40E1AF7145C5408AC /* KRBPN */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3D4C790778FB5584BCBEE1C0D4898251 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2B74CFC03A439D0E148DAB10FA4562BB /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				CB8640FEF3B1010E779D8DB3C7FAFFBB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9369EC4CDE7F30F40E1AF7145C5408AC /* KRBPN */ = {
+			isa = PBXGroup;
+			children = (
+				DEDE84B09CD65957098A6511170F736C /* KRBPN.h */,
+				84561313E81C11DC0F4F094955887B5D /* KRBPN.m */,
+				73D2DE499B3783818EC4502BEC8D822F /* KRBPN+Definition.h */,
+				0D98EB05DEA3EC5AE6F4A439C416EED7 /* KRBPN+NSUserDefaults.h */,
+				CDCF1574E6DAB2DF700519E5E48E1770 /* KRBPN+NSUserDefaults.m */,
+				DDCF0259EF3013CA77C2029EB7CC0A5B /* KRBPNTrainedNetwork.h */,
+				5362271F52B78DEC6A31ADF433D94FD5 /* KRBPNTrainedNetwork.m */,
+				8BFA9C0439DDEF22417006642E295FEE /* KRQuickProp.h */,
+				DC4AE3C63A2244F163C6BEADCE552282 /* KRQuickProp.m */,
+				D58B74B45CBB06B07CE998C2CBBFD063 /* Support Files */,
+			);
+			path = KRBPN;
+			sourceTree = "<group>";
+		};
+		AB4DB18A4CEDB95B683118B83F0AC07C /* Pods-ML-Recommendation */ = {
+			isa = PBXGroup;
+			children = (
+				BA098BBF023E701D24277C953713CC31 /* Pods-ML-Recommendation-acknowledgements.markdown */,
+				A0DF229DA9ACA9DC68BF1EA50958C6C6 /* Pods-ML-Recommendation-acknowledgements.plist */,
+				02D18C5920F8D93989428467AE22C9B3 /* Pods-ML-Recommendation-dummy.m */,
+				FC7125E23355A8995221904D30CA1CFC /* Pods-ML-Recommendation-resources.sh */,
+				3080C979766BE92340A029C4A5CA816B /* Pods-ML-Recommendation.debug.xcconfig */,
+				D5401750A5295E6583BB20D17DA65F84 /* Pods-ML-Recommendation.release.xcconfig */,
+			);
+			name = "Pods-ML-Recommendation";
+			path = "Target Support Files/Pods-ML-Recommendation";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB8640FEF3B1010E779D8DB3C7FAFFBB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB4DB18A4CEDB95B683118B83F0AC07C /* Pods-ML-Recommendation */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F62DA3D8311462CE0B5613C1AA4D1BE5 /* libKRBPN.a */,
+				E70E4F546DD5CBA030045CABBC845F89 /* libPods-ML-Recommendation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D58B74B45CBB06B07CE998C2CBBFD063 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				94A69855B647CFDE8B9835C7AC6F8AA6 /* KRBPN.xcconfig */,
+				EA6F51FF0F4E390FEBDB4E8C60A79C1A /* KRBPN-Private.xcconfig */,
+				CA4BCD596DEB441F83C6068C992FF072 /* KRBPN-dummy.m */,
+				42D05B9EE22598B9CC4339D377073A92 /* KRBPN-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KRBPN";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E1EAF6A534A5949880A392C85C8D2D7A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7E59653321D8FA71B1995051B20AB3 /* KRBPN+Definition.h in Headers */,
+				D0B7BAB6533B9EE1B7A083CE8FBBE37A /* KRBPN+NSUserDefaults.h in Headers */,
+				80A4C2427859C0BCA316AA8DCDF3DFE3 /* KRBPN.h in Headers */,
+				E86EFB3E0E5C8C12C49B32B51893F679 /* KRBPNTrainedNetwork.h in Headers */,
+				AE47E5F7DA8FB590925855B1F538AFB7 /* KRQuickProp.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5E3F53C473B014BD7FCF34709510532F /* KRBPN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 202935FEC3494528456C5F125B00D2C6 /* Build configuration list for PBXNativeTarget "KRBPN" */;
+			buildPhases = (
+				A4EC6CBBA316B6B38F1888FF02F9656E /* Sources */,
+				7FB419089AEA7BCBE2856DB16749C9DD /* Frameworks */,
+				E1EAF6A534A5949880A392C85C8D2D7A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KRBPN;
+			productName = KRBPN;
+			productReference = F62DA3D8311462CE0B5613C1AA4D1BE5 /* libKRBPN.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B146A4CF5EBE0D2660F2706E5C4398D3 /* Pods-ML-Recommendation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D107ABBAC61EE28D840D65DBAAD91F1 /* Build configuration list for PBXNativeTarget "Pods-ML-Recommendation" */;
+			buildPhases = (
+				FC8318C6B3F192D0427EDC16652B7094 /* Sources */,
+				DAE8B20C003ACA5C778289D3356B15E7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A04781D45682D4B68DB26ABD31BDDE09 /* PBXTargetDependency */,
+			);
+			name = "Pods-ML-Recommendation";
+			productName = "Pods-ML-Recommendation";
+			productReference = E70E4F546DD5CBA030045CABBC845F89 /* libPods-ML-Recommendation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E3F53C473B014BD7FCF34709510532F /* KRBPN */,
+				B146A4CF5EBE0D2660F2706E5C4398D3 /* Pods-ML-Recommendation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4EC6CBBA316B6B38F1888FF02F9656E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C1ED78B1F4C1773BB598869DD36FA52 /* KRBPN+NSUserDefaults.m in Sources */,
+				93584E5A8867A734AF87CB319BFF64F3 /* KRBPN-dummy.m in Sources */,
+				298B1BD677332EB6FFF318ECB865C419 /* KRBPN.m in Sources */,
+				5F781AF88CC8414165132C53C7601C62 /* KRBPNTrainedNetwork.m in Sources */,
+				2713ED9D51733B9C52CAD004713C2E92 /* KRQuickProp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8318C6B3F192D0427EDC16652B7094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661E8E5290BFA861112FAB0E00272F5F /* Pods-ML-Recommendation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A04781D45682D4B68DB26ABD31BDDE09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KRBPN;
+			target = 5E3F53C473B014BD7FCF34709510532F /* KRBPN */;
+			targetProxy = A30547CC31BAB038A8BAF1FB6FD92AC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		052A17875CB827423D627183396CEB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17746362914DBE2736F570FE4CCBC315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3080C979766BE92340A029C4A5CA816B /* Pods-ML-Recommendation.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		54DCF8AEDBCB676FD06F9404E27AB4A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5401750A5295E6583BB20D17DA65F84 /* Pods-ML-Recommendation.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8F981D0402A11798ECF73F75B6BD245D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA6F51FF0F4E390FEBDB4E8C60A79C1A /* KRBPN-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KRBPN/KRBPN-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BF11C02B2FA8DB662E2746E5C43DBD6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA6F51FF0F4E390FEBDB4E8C60A79C1A /* KRBPN-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KRBPN/KRBPN-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		202935FEC3494528456C5F125B00D2C6 /* Build configuration list for PBXNativeTarget "KRBPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF11C02B2FA8DB662E2746E5C43DBD6E /* Debug */,
+				8F981D0402A11798ECF73F75B6BD245D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */,
+				052A17875CB827423D627183396CEB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D107ABBAC61EE28D840D65DBAAD91F1 /* Build configuration list for PBXNativeTarget "Pods-ML-Recommendation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17746362914DBE2736F570FE4CCBC315 /* Debug */,
+				54DCF8AEDBCB676FD06F9404E27AB4A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
