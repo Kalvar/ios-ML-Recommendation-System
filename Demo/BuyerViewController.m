@@ -25,12 +25,14 @@
         [_patterns addObject:[NSNumber numberWithFloat:_price]];
         [_patterns addObject:[NSNumber numberWithFloat:(_reviewedTimes / 100.0f)]];
         
+        // 取得 NN Output 當前 Book 的購買率
         [_nn setTrainingCompletion:^(BOOL success, NSDictionary *trainedInfo, NSInteger totalTimes){
             float _rate         = [[[trainedInfo objectForKey:KRBPNTrainedOutputResults] firstObject] floatValue] * 100;
             self.rateLabel.text = [NSString stringWithFormat:@"%.2f%%", _rate];
             NSLog(@"buy rate : %f", _rate);
         }];
         
+        // 性別是 Male 就訓練 NN 後再輸出
         if( [[BooksDatabase sharedDatabase] getUserSexy] == 1 )
         {
             // 只看不買，對剩下的商品就越沒興趣
@@ -41,6 +43,7 @@
         }
         else
         {
+            // 性別是 Female 就直接輸出而不訓練 NN
             [_nn directOutputAtInputs:_patterns];
         }
         
@@ -64,6 +67,7 @@
             [_patterns addObject:[NSNumber numberWithFloat:_price]];
             [_patterns addObject:[NSNumber numberWithInteger:_reviewedTimes]];
             
+            // 丟到 NN 進行喜好程度的訓練
             [_nn setTrainingCompletion:^(BOOL success, NSDictionary *trainedInfo, NSInteger totalTimes) {
                 [_recommends addObject:@{kBookId   : _bookId,
                                          kBookName : [_bookInfo objectForKey:kBookName],
@@ -73,10 +77,7 @@
             
             //NSLog(@"_patterns : %@", _patterns);
             [_nn directOutputAtInputsOnMainThread:_patterns];
-            //[_nn directOutputAtInputs:_patterns];
         }
-        
-        //NSLog(@"_recommends : %@", _recommends);
         
         if( [_recommends count] > 0 )
         {
@@ -86,6 +87,7 @@
             NSString *_bestBookName = @"";
             for ( NSDictionary *_results in _recommends )
             {
+                // 取出 NN 推論出的感興趣程度( kBookRate )來判斷購買率
                 NSNumber *_output = [_results objectForKey:kBookRate];
                 if( [_output floatValue] > _maxValue )
                 {

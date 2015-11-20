@@ -25,8 +25,8 @@ static NSString *kBookSoldTimes     = @"soldTimes";
 static NSString *kBookBoughtTimes   = @"boughtTimes";
 static NSString *kBookReviewedTimes = @"reviewedTimes";
 
-static NSString *kUserSexy          = @"kUserSexy";  // 1 Male, 0 Female
+static NSString *kUserSexy          = @"kUserSexy";      // 1 Male, 0 Female
 static NSString *kTrainingMode      = @"kTrainingMode";  // 1 Online Training, 0 Offline Training (Batch)
 
-static NSInteger kPerBookStored     = 10; // 每款書都是庫存 10 本
+static NSInteger kPerBookStored     = 10;                // 每款書都是庫存 10 本
 

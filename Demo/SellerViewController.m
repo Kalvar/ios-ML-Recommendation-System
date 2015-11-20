@@ -31,14 +31,14 @@
         [_patterns addObject:[NSNumber numberWithFloat:(_reviewedTimes / 100.0f)]];
         [_patterns addObject:[NSNumber numberWithInteger:_sexy]];
         
+        // 取得 NN Output 當前 Book 的賣出率
         [_nn setTrainingCompletion:^(BOOL success, NSDictionary *trainedInfo, NSInteger totalTimes){
             float _rate   = [[[trainedInfo objectForKey:KRBPNTrainedOutputResults] firstObject] floatValue] * 100;
             self.rateLabel.text = [NSString stringWithFormat:@"%.2f%%", _rate];
             NSLog(@"sell rate : %f", _rate);
         }];
         
-        NSLog(@"kTrainingMode x : %li", [[BooksDatabase sharedDatabase] getTrainingMode]);
-        
+        // 性別是 Male 就訓練 NN 後再輸出
         if( [[BooksDatabase sharedDatabase] getTrainingMode] == 1 )
         {
             //NSLog(@"online training : %@", _patterns);
@@ -49,6 +49,7 @@
         }
         else
         {
+            // 性別是 Female 就直接輸出而不訓練 NN
             [_nn directOutputAtInputs:_patterns];
         }
     }
